@@ -1,0 +1,8 @@
+C:\Users\antonelli.nicola\Desktop\1610TPS\1610TPS\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\antonelli.nicola\Desktop\1610TPS\1610TPS\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\antonelli.nicola\Desktop\1610TPS\1610TPS\obj\x86\Debug\1610TPS.csproj.GenerateResource.Cache
+C:\Users\antonelli.nicola\Desktop\1610TPS\1610TPS\bin\Debug\1610TPS.exe
+C:\Users\antonelli.nicola\Desktop\1610TPS\1610TPS\bin\Debug\1610TPS.pdb
+C:\Users\antonelli.nicola\Desktop\1610TPS\1610TPS\obj\x86\Debug\1610TPS.exe
+C:\Users\antonelli.nicola\Desktop\1610TPS\1610TPS\obj\x86\Debug\1610TPS.pdb
+C:\Users\antonelli.nicola\Desktop\1610TPS\1610TPS\obj\x86\Debug\1610TPS.csprojResolveAssemblyReference.cache
