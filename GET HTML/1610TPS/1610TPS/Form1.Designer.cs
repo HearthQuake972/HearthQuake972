@@ -32,9 +32,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.btnAnalizza = new System.Windows.Forms.Button();
             this.txtSito = new System.Windows.Forms.TextBox();
-            this.txtmail = new System.Windows.Forms.TextBox();
-            this.lblmail = new System.Windows.Forms.Label();
-            this.txtbho = new System.Windows.Forms.TextBox();
+            this.txtGet = new System.Windows.Forms.TextBox();
+            this.txtReply = new System.Windows.Forms.TextBox();
+            this.txtUrl1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnReset
@@ -43,9 +43,9 @@
             this.btnReset.Enabled = false;
             this.btnReset.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset.ForeColor = System.Drawing.Color.Lime;
-            this.btnReset.Location = new System.Drawing.Point(482, 5);
+            this.btnReset.Location = new System.Drawing.Point(11, 30);
             this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(109, 20);
+            this.btnReset.Size = new System.Drawing.Size(397, 32);
             this.btnReset.TabIndex = 12;
             this.btnReset.Text = "ESCI";
             this.btnReset.UseVisualStyleBackColor = false;
@@ -56,20 +56,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Location = new System.Drawing.Point(8, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 16);
+            this.label1.Size = new System.Drawing.Size(184, 16);
             this.label1.TabIndex = 11;
-            this.label1.Text = "SITE NAME       -->";
+            this.label1.Text = "INSERT SITE LINK       -->";
             // 
             // btnAnalizza
             // 
             this.btnAnalizza.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnAnalizza.Font = new System.Drawing.Font("Lucida Console", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAnalizza.ForeColor = System.Drawing.Color.Lime;
-            this.btnAnalizza.Location = new System.Drawing.Point(367, 5);
+            this.btnAnalizza.Location = new System.Drawing.Point(424, 30);
             this.btnAnalizza.Name = "btnAnalizza";
-            this.btnAnalizza.Size = new System.Drawing.Size(109, 20);
+            this.btnAnalizza.Size = new System.Drawing.Size(396, 32);
             this.btnAnalizza.TabIndex = 10;
             this.btnAnalizza.Text = "ANALIZZA";
             this.btnAnalizza.UseVisualStyleBackColor = false;
@@ -80,52 +80,56 @@
             this.txtSito.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.txtSito.Font = new System.Drawing.Font("Lucida Console", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSito.ForeColor = System.Drawing.Color.Lime;
-            this.txtSito.Location = new System.Drawing.Point(151, 5);
+            this.txtSito.Location = new System.Drawing.Point(309, 7);
             this.txtSito.Name = "txtSito";
-            this.txtSito.Size = new System.Drawing.Size(210, 18);
+            this.txtSito.Size = new System.Drawing.Size(221, 18);
             this.txtSito.TabIndex = 9;
             // 
-            // txtmail
+            // txtGet
             // 
-            this.txtmail.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.txtmail.Font = new System.Drawing.Font("Lucida Console", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtmail.ForeColor = System.Drawing.Color.Lime;
-            this.txtmail.Location = new System.Drawing.Point(151, 31);
-            this.txtmail.Name = "txtmail";
-            this.txtmail.Size = new System.Drawing.Size(325, 18);
-            this.txtmail.TabIndex = 15;
-            this.txtmail.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtGet.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.txtGet.Font = new System.Drawing.Font("Lucida Console", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGet.ForeColor = System.Drawing.Color.Lime;
+            this.txtGet.Location = new System.Drawing.Point(12, 68);
+            this.txtGet.Multiline = true;
+            this.txtGet.Name = "txtGet";
+            this.txtGet.Size = new System.Drawing.Size(396, 628);
+            this.txtGet.TabIndex = 17;
             // 
-            // lblmail
+            // txtReply
             // 
-            this.lblmail.AutoSize = true;
-            this.lblmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblmail.Location = new System.Drawing.Point(12, 31);
-            this.lblmail.Name = "lblmail";
-            this.lblmail.Size = new System.Drawing.Size(133, 16);
-            this.lblmail.TabIndex = 16;
-            this.lblmail.Text = "NOTIFY EMAIL -->";
+            this.txtReply.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.txtReply.Font = new System.Drawing.Font("Lucida Console", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtReply.ForeColor = System.Drawing.Color.Lime;
+            this.txtReply.Location = new System.Drawing.Point(424, 68);
+            this.txtReply.Multiline = true;
+            this.txtReply.Name = "txtReply";
+            this.txtReply.Size = new System.Drawing.Size(396, 628);
+            this.txtReply.TabIndex = 18;
             // 
-            // txtbho
+            // txtUrl1
             // 
-            this.txtbho.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.txtbho.Font = new System.Drawing.Font("Lucida Console", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbho.ForeColor = System.Drawing.Color.Lime;
-            this.txtbho.Location = new System.Drawing.Point(9, 68);
-            this.txtbho.Multiline = true;
-            this.txtbho.Name = "txtbho";
-            this.txtbho.Size = new System.Drawing.Size(889, 628);
-            this.txtbho.TabIndex = 17;
+            this.txtUrl1.BackColor = System.Drawing.SystemColors.InfoText;
+            this.txtUrl1.Enabled = false;
+            this.txtUrl1.Font = new System.Drawing.Font("Lucida Console", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUrl1.ForeColor = System.Drawing.Color.Lime;
+            this.txtUrl1.Location = new System.Drawing.Point(197, 7);
+            this.txtUrl1.Margin = new System.Windows.Forms.Padding(2);
+            this.txtUrl1.Name = "txtUrl1";
+            this.txtUrl1.Size = new System.Drawing.Size(107, 18);
+            this.txtUrl1.TabIndex = 19;
+            this.txtUrl1.Text = "https://";
+            this.txtUrl1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Coral;
-            this.ClientSize = new System.Drawing.Size(910, 708);
-            this.Controls.Add(this.txtbho);
-            this.Controls.Add(this.lblmail);
-            this.Controls.Add(this.txtmail);
+            this.ClientSize = new System.Drawing.Size(836, 708);
+            this.Controls.Add(this.txtUrl1);
+            this.Controls.Add(this.txtReply);
+            this.Controls.Add(this.txtGet);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnAnalizza);
@@ -143,9 +147,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnAnalizza;
         private System.Windows.Forms.TextBox txtSito;
-        private System.Windows.Forms.TextBox txtmail;
-        private System.Windows.Forms.Label lblmail;
-        private System.Windows.Forms.TextBox txtbho;
+        private System.Windows.Forms.TextBox txtGet;
+        private System.Windows.Forms.TextBox txtReply;
+        private System.Windows.Forms.TextBox txtUrl1;
 
     }
 }
